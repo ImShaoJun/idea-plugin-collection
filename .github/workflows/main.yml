@@ -3,7 +3,7 @@ name: Publish Plugin to Release
 on:
   release:
     types: [published]
-
+  workflow_dispatch:
 jobs:
   build-and-upload:
     runs-on: ubuntu-latest
