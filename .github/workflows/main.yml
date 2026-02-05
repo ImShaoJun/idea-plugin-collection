@@ -37,4 +37,4 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/')
         with:
           # 自动匹配 build/distributions 下的所有 zip 文件
-          files: **/build/distributions/*.zip
+          files: "**/build/distributions/*.zip"
